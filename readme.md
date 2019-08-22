@@ -12,46 +12,65 @@ The viewer has the possibility to see all the reviews of a recipe but only an au
 
 # Api Endpoint
 - Admin 
+
 admin/
 
 
 - Authentication
+
 api/v1/ auth/
 
 
 - recipe endpoint
+
 api/v1/ users/
+
 api/v1/ users/<int:pk>/
 
 api/v1/ categories/ [name='categoryList']
+
 api/v1/ categories/<int:pk> [name='categoryDetail']
 
 api/v1/ locations/ [name='locationList']
+
 api/v1/ locations/<int:pk> [name='locationDetail']
 
 api/v1/ ingredients/ [name='ingredientList']
+
 api/v1/ ingredients/<int:pk> [name='ingredientDetail']
 
 api/v1/ directions/ [name='directionList']
+
 api/v1/ directions/<int:pk> [name='directionDetail']
 
 api/v1/ cuisine/ [name='cuisineList']
+
 api/v1/ cuisine/<int:pk> [name='cuisineDetail']
 
 api/v1/ recipes/ [name='recipeList']
+
 api/v1/ recipes/<int:pk> [name='recipeDetail']
+
 api/v1/ recipes-less/ [name='recipeLessList']
+
 api/v1/ recipes-less/<int:pk> [name='recipeLessDetail']
 
 api/v1/ reviews/ [name='reviewsList']
+
 api/v1/ reviews/<int:pk> [name='reviewsDetail']
 
 api/v1/ favorites/ [name='favoriteList']
+
 api/v1/ favorites/<int:pk> [name='favoriteDetail']
+
 api/v1/ favorites-user/ [name='favoriteUserList']
+
 api/v1/ favorites-user/<int:pk> [name='favoriteUserDetail']
+
 api/v1/ favorites-full-user/ [name='favoriteFullUserList']
+
 api/v1/ favorites-full-user/<int:pk> [name='favoriteFullUserDetail']
 
 api/v1/ user-recipes/ [name='user-recipe']
+
 api/v1/ user-recipes/<int:pk> [name='user-recipeDetail']
